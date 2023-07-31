@@ -2,12 +2,10 @@
   "name": "goit-node-hw-01-cli",
   "version": "1.0.0",
   "main": "index.js",
-
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/S-Boychuk/goit-node-hw-01-CLI.git"
@@ -19,8 +17,12 @@
     "url": "https://github.com/S-Boychuk/goit-node-hw-01-CLI/issues"
   },
   "homepage": "https://github.com/S-Boychuk/goit-node-hw-01-CLI#readme",
-  
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.2"
   }
 }
